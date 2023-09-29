@@ -1,0 +1,177 @@
+<!--Emiro Camacho/C.I:30.642.010-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de empleados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+  
+
+
+ <h1 style="text-align: center;">Registro de empleados</h1>
+ <br>
+ <form action="resultados.php" method="post">
+  <div class="container">
+    <div class="row">
+
+      <!-- Empleado 1 --> 
+      <div class="col-4 border border-primary border border-2">
+        <h3>Empleado 1</h3>
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="nombre_apellido_1" maxlength="60" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90 || (event.charCode == 32)) || (event.charCode >= 97 && event.charCode <= 122 || (event.charCode == 32) ))" required><br>
+  
+        <label>Edad:</label>
+        <input type="number" name="edad_1" min="18" max="100" required><br>
+  
+        <label>Estado civil:</label>
+        <select name="estado_civil_1">
+        <option value="soltero">Soltero(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="viudo">Viudo(a)</option>
+        </select><br>
+        
+        <label>Sexo:</label>
+        <input type="radio" name="sexo_1" value="femenino" required>Femenino
+        <input type="radio" name="sexo_1" value="masculino" required>Masculino<br>
+  
+        <label>Sueldo:</label>
+        <select name="sueldo_1">
+        <option value="-1000">Menos de 1000 Bs.</option>
+        <option value="1000-2500">Entre 1000 y 2500 Bs.</option>
+        <option value="+2500">Mas de 2500 Bs.</option>
+        </select><br>
+      </div>
+
+      <!-- Empleado 2 -->
+      <div class="col-4 border border-primary border border-2 ">
+        
+        <h3>Empleado 2</h3>
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="nombre_apellido_2" maxlength="60" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90 || (event.charCode == 32)) || (event.charCode >= 97 && event.charCode <= 122 || (event.charCode == 32) ))" required><br>
+
+        <label>Edad:</label>
+        <input type="number" name="edad_2" min="18" max="100" required><br>
+
+        <label>Estado civil:</label>
+        <select name="estado_civil_2">
+        <option value="soltero">Soltero(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="viudo">Viudo(a)</option>
+        </select><br>
+
+        <label>Sexo:</label>
+        <input type="radio" name="sexo_2" value="femenino" required>Femenino
+        <input type="radio" name="sexo_2" value="masculino" required>Masculino<br>
+
+        <label>Sueldo:</label>
+        <select name="sueldo_2">
+        <option value="-1000">Menos de 1000 Bs.</option>
+        <option value="1000-2500">Entre 1000 y 2500 Bs.</option>
+        <option value="+2500">Mas de 2500 Bs.</option>
+        </select><br>
+      </div>
+
+      <!-- Empleado 3 -->
+      <div class="col-4 border border-primary border border-2 ">
+        <h3>Empleado 3</h3>
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="nombre_apellido_3" maxlength="60" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90 || (event.charCode == 32)) || (event.charCode >= 97 && event.charCode <= 122 || (event.charCode == 32) ))" required><br>
+
+        <label>Edad:</label>
+        <input type="number" name="edad_3" min="18" max="100" required><br>
+
+        <label>Estado civil:</label>
+        <select name="estado_civil_3">
+        <option value="soltero">Soltero(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="viudo">Viudo(a)</option>
+        </select><br>
+
+        <label>Sexo:</label>
+        <input type="radio" name="sexo_3" value="femenino" required>Femenino
+        <input type="radio" name="sexo_3" value="masculino" required>Masculino<br>
+
+        <label>Sueldo:</label>
+        <select name="sueldo_3">
+        <option value="-1000">Menos de 1000 Bs.</option>
+        <option value="1000-2500">Entre 1000 y 2500 Bs.</option>
+        <option value="+2500">Mas de 2500 Bs.</option>
+        </select><br>
+      </div>
+    </div>
+    <br>
+    <div class="row" style="text-align: center;">
+      <!-- Empleado 4 -->
+      <div class="col-6 border border-primary border border-2">
+        <h3>Empleado 4</h3>
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="nombre_apellido_4" maxlength="60" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90 || (event.charCode == 32)) || (event.charCode >= 97 && event.charCode <= 122 || (event.charCode == 32) ))" required><br>
+
+        <label>Edad:</label>
+        <input type="number" name="edad_4" min="18" max="100" required><br>
+
+        <label>Estado civil:</label>
+        <select name="estado_civil_4">
+        <option value="soltero">Soltero(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="viudo">Viudo(a)</option>
+        </select><br>
+
+        <label>Sexo:</label>
+        <input type="radio" name="sexo_4" value="femenino" required>Femenino
+        <input type="radio" name="sexo_4" value="masculino" required>Masculino<br>
+
+        <label>Sueldo:</label>
+        <select name="sueldo_4">
+        <option value="-1000">Menos de 1000 Bs.</option>
+        <option value="1000-2500">Entre 1000 y 2500 Bs.</option>
+        <option value="+2500">Mas de 2500 Bs.</option>
+        </select><br>
+      </div>
+      <!-- Empleado 5 -->
+      <div class="col-6 border border-primary border border-2">  
+        <h3>Empleado 5</h3>
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="nombre_apellido_5" maxlength="60" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90 || (event.charCode == 32)) || (event.charCode >= 97 && event.charCode <= 122 || (event.charCode == 32) ))" required><br>
+      
+        <label>Edad:</label>
+        <input type="number" name="edad_5" min="18" max="100" required><br>
+      
+        <label>Estado civil:</label>
+        <select name="estado_civil_5">
+        <option value="soltero">Soltero(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="viudo">Viudo(a)</option>
+        </select><br>
+      
+        <label>Sexo:</label>
+        <input type="radio" name="sexo_5" value="femenino" required>Femenino
+        <input type="radio" name="sexo_5" value="masculino" required>Masculino<br>
+      
+        <label>Sueldo:</label>
+        <select name="sueldo_5">
+        <option value="-1000">Menos de 1000 Bs.</option>
+        <option value="1000-2500">Entre 1000 y 2500 Bs.</option>
+        <option value="+2500">Mas de 2500 Bs.</option>
+        </select><br>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row" style="text-align: center;">
+    <div class="col-12">
+      <input type="submit" class="btn btn-success" value="Registrar">
+    </div>
+  </div>
+ </form>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
